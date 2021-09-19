@@ -1,0 +1,8 @@
+---
+ - name: loopback
+   host: all
+   task:
+    -name: Create loopback 0 ipv4 address
+    ios_l3_interface:
+      name: lo0
+      ipv4: 7.7.7.7/32
